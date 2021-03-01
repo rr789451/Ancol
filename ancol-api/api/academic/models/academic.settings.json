@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academics",
+  "info": {
+    "name": "Academic",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "department": {
+      "type": "string",
+      "required": true
+    },
+    "article": {
+      "type": "component",
+      "repeatable": true,
+      "component": "paragraph.description",
+      "required": true
+    }
+  }
+}

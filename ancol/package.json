@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "@react-icons/all-files": "^4.1.0",
+    "@stripe/stripe-js": "^1.12.1",
+    "bootstrap": "^4.6.0",
+    "gatsby": "^2.31.1",
+    "gatsby-image": "^2.4.0",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sharp": "^2.13.1",
+    "gatsby-plugin-sitemap": "^2.4.2",
+    "gatsby-plugin-webfonts": "^1.1.4",
+    "gatsby-source-filesystem": "^2.3.0",
+    "gatsby-source-strapi": "0.0.12",
+    "gatsby-transformer-sharp": "^2.5.0",
+    "node-sass": "^5.0.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.12.0",
+    "react-elastic-carousel": "^0.11.0",
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.10.0",
+    "react-markdown": "^4.3.1",
+    "react-slideshow-image": "^3.4.3",
+    "stripe": "^8.134.0",
+    "styled-components": "^5.2.1",
+    "swiper": "^6.4.8"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
