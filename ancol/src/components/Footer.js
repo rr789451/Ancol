@@ -61,7 +61,8 @@ const Footer = () => {
       </ul>
       <div className="footer-bottom">
         <p>
-          CREATED BY MECS STUDENTS [1608-18-733-067, 1608-18-733-073, 1608-18-733-075]
+          CREATED BY MECS STUDENTS [1608-18-733-067, 1608-18-733-073,
+          1608-18-733-075]
         </p>
       </div>
     </footer>
